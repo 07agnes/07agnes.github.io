@@ -1,0 +1,421 @@
+
+	body{
+	background-image: linear-gradient(to bottom right,#B9B8BD,#6D6E6A);
+	width: 100%;
+	height:100%;
+	padding: 8px;
+	overflow: hidden;
+
+	}
+/*------------------------------------------------layout---------------------------------------*/	
+.main{
+	width:1300px;
+	height:648px;
+	border: 3px, solid;
+	background-color:#FFFFFF;
+	align-self: center;
+	margin: auto;
+	border-radius: 12px 12px;
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.background-color{
+
+	background-color:#C5944F;
+	width:100%;
+	height:20%;
+	border-radius: 12px 12px 0px 0px;
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.upper{ 
+width:100%;
+height:55%;
+background-color:#41110D;
+padding-bottom: 13px;	
+}
+.title{
+	width:45%;
+	height:100%;
+	float: left;
+	padding: auto;
+}
+.dashes{
+	width:55%;
+	height:100%;
+	float:right;
+	padding: auto;
+}
+
+.formmain{
+	width:100%;
+	height:73%;
+	padding:0px;
+}
+
+.footer{
+width:100%;
+height:7%;
+background-color:#41110D;
+float: left;
+border-radius: 0px 0px 12px 12px;
+}
+
+/*-------------------------------------------------header tags css---------------------------------------------*/
+	h3{
+		color:#C72928;
+		font-family: Letter Gothic Std;
+		font-weight: bolder;
+		text-shadow: 0px 1px black;
+
+	}
+	h4{
+		color:#000;
+		font-family: Bahnschrift Light;
+		font-weight: lighter;
+		text-shadow: 0px 1px black;
+	}
+	h2{
+
+		color:#C72928;
+		font-family: Bahnschrift Light;
+		font-weight: lighter;
+		padding-left: 15px;
+		text-shadow: 0px 1px black;
+	}
+	h1{
+		color:#C72928;
+		text-decoration-color: #C72928;
+		padding-left: 95px;
+		text-shadow: 3px 3px black;
+	}
+
+	p{
+	color:#41110D;
+	font-weight:bold;
+	font-size: 17px ;
+	font-family: Bahnschrift Light;	
+	}
+
+	.copyright{
+	color: #fff;
+	font-size: 15px;
+
+	}
+
+ol{
+	font-weight: bold;
+	color:#41110D;
+}
+ul{
+	font-weight: bold;
+	color:#41110D ;
+}
+
+
+
+/*-------------------------------------------------------navigation menue---------------------------------------*/
+.menu-btn {
+   background-color: #41110D;
+   color: white;
+   padding: 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: Letter Gothic Std;
+   border: none;
+   text-shadow: 3px 3px black;
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color: #41110D;
+   font-family: Letter Gothic Std;
+   min-width: 160px;
+   z-index: 1;
+}
+
+nav{
+   background-color: #41110D;
+   padding-top: 12px;
+}
+
+.links,.links-hidden{
+   display: inline-block;
+   color: rgb(255, 255, 255);
+   text-shadow: 3px 3px black;
+   padding: 12px 16px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.links-hidden{
+   display: block;
+   font-size: 15px;
+}
+
+.links{
+   display: inline-block;
+   text-shadow: 3px 3px black;
+   font-family: Letter Gothic Std;
+}
+
+.links-hidden:hover,.links:hover {
+  	color:#C72928;
+	font-family: Brush Script MT;
+	cursor: pointer;
+	font-size: 30px;
+	visibility: visible;
+  	opacity: 1;
+	
+}
+
+.dropdown-menu:hover .menu-content {
+   display: block;
+   cursor: pointer;
+}
+
+/*------------------------------------------------unvisited---------------------------------------*/
+a:active {
+color:#fff;	
+}
+/*------------------------------------------------visited---------------------------------------*/
+a:active {
+	color:#C5944F;
+}
+/*------------------------------------------------selected---------------------------------------*/
+a:active {
+color:#C72928;
+}
+
+/*------------------------------------------------elements ---------------------------------------*/
+
+
+.master{
+		color:#C72928 ;
+		font-family: Brush Script MT;
+		font-weight: bolder;
+		font-size: 45px;
+		text-shadow: 3px 3px black;
+	}
+
+.front{
+		color:#E7D0D2;
+		font-family: Letter Gothic Std;
+		font-weight: bold;
+		font-size: 35px;
+		align-self: center;
+		text-shadow: 3px 3px black;
+	}
+
+.master:hover{
+
+		color:#E7D0D2;
+		font-family: Brush Script MT;
+		font-weight: bold;
+		font-size: 25px;
+		align-self: center;
+
+	}
+
+.front:hover{
+		color:#C72928 ;
+		font-family: Brush Script MT;
+		font-weight: bolder;
+		font-size: 35px;
+	}
+
+.content{
+  height: 300px;
+  width: 80%;
+  border: 0px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+
+.content .images{
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  
+}
+
+.images img{
+  height: 100%;
+  width: 100%;
+}
+	
+.nav{
+	width:40px;
+	color:#8B6F60; 
+	margin:12px;
+	padding-left: 2px;
+}
+
+
+/*--------------------------------------------products-----------------------------------------*/
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 23%;
+  height:450px; 
+  border-right: 1px solid #8B6F60;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  padding: 10px;
+}
+.column.sidelast {
+  width: 23%;
+  height:450px; 
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/*--------------------------------------------contacts-----------------------------------------*/
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.roworder{
+	width: 100%;
+	padding-left: 78px;
+}
+.column.sideorder {
+  width: 30%;
+  height: 450px;
+  border: 1px solid #C5944F;
+  margin: 0px;
+  margin-top: 8px;
+  padding-left: 25px;
+  float: left;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+  border-radius: 10px;
+
+}
+.columncontact{
+width: 520px;
+  height: 460px;
+  margin: 0px;
+  padding-left: 30px;
+  float: left;
+
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+
+#home1 {
+	border-right: 1px solid;
+}
+
+
+.text1{
+color:#41110D;
+width:350px;
+height:40px;
+border: 3px solid #C5944F;
+font-family: Tahoma, sans-serif;
+font-weight: bold;
+padding: 5px;
+border-radius:5px; 	
+}
+
+.textarea{
+	color:#41110D;
+	width: 350px;
+	height: 120px;
+	border: 3px solid #C5944F;
+	padding: 5px;
+	border-radius:5px;
+	font-family: Tahoma, sans-serif;
+}
+
+	
+	button{
+		background-color: #41110D;
+		width: 100px;
+		height: 35px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 80px;
+		color:#fff;
+	}
+	.buttonorder{
+		background-color: #41110D;
+		width: 200px;
+		height: 35px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 80px;
+		color:#fff;
+	}
+	.locate{
+		font-size: 19px ;
+		padding-left: 30px;
+	}
+/*------------------------------------------home slider------------------------------------------------------------------*/
+
+.slider{
+width:100%;
+height:100%;
+padding:0px
+border:1px solid #41110D;
+border-radius:12px; 
+}
+
+.mySlides{
+	width:90%;
+	height:400px;
+	padding: 30px;
+}
+/*--------------------------------------------------------------------productd--------------------------------------------*/
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height:50%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+/*----------------------------------------you----------------------------------------------------------*/
+
+
